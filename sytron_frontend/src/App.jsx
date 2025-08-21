@@ -4,6 +4,7 @@ import Home from './pages/home'
 import Loader from './components/loader'
 import Timeline from './components/Schedule'
 import { events } from './utils/utils'
+import Events from './pages/events'
 function App() {
 
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/loader" element={<Loader />} />
         <Route path="/schedule" element={<Timeline events={events} />} />
+        <Route path="/events" element={<Events/>} />
       </Routes>
     </Router>  
   )

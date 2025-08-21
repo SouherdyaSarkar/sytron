@@ -7,6 +7,9 @@
   font-family: Zen Dots;
   background-color: black;
 }
+::-webkit-scrollbar{
+  display: none;
+}
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

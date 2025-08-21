@@ -90,3 +90,97 @@ export const events = [
     type: "Normal"
   }
 ];
+
+
+export const eventDetails = [
+  {
+    title: "Ethical Hacking Workshop",
+    desc: "Hands-on introduction to ethical hacking techniques. Learn how vulnerabilities are discovered and how to secure systems against cyber threats.",
+    type: "Tech"
+  },
+  {
+    title: "Panel Discussion",
+    desc: "Engaging session with industry experts and professors. Discuss trends, challenges, and opportunities in technology and innovation.",
+    type: "Talk"
+  },
+  {
+    title: "Yantra Vidya",
+    desc: "A technical exhibition showcasing student innovations, models, and prototypes. Witness creativity at its best through practical applications.",
+    type: "Exhibition"
+  },
+  {
+    title: "Poster Presentation",
+    desc: "Present your research, concepts, or innovative ideas through visual posters. A platform to express creativity and technical understanding.",
+    type: "Competition"
+  },
+  {
+    title: "HFSS Workshop",
+    desc: "Learn High Frequency Structure Simulator (HFSS) software for antenna design and RF simulations. A practical guide for electronics enthusiasts.",
+    type: "Tech"
+  },
+  {
+    title: "Generative AI Workshop",
+    desc: "Dive into the world of Generative AI. Explore how models like GPT and diffusion networks create text, images, and innovative applications.",
+    type: "Tech"
+  },
+  {
+    title: "Online Coding Competition",
+    desc: "Put your coding skills to the test in a fast-paced online challenge. Solve algorithmic problems under time pressure and compete globally.",
+    type: "Competition"
+  },
+  {
+    title: "Photography Contest",
+    desc: "Capture your best shots and showcase your perspective. A competition celebrating creativity, storytelling, and the art of photography.",
+    type: "Competition"
+  },
+  {
+    title: "Reel Making Competition",
+    desc: "Create short, engaging reels that combine creativity and storytelling. A fun event highlighting digital media skills and originality.",
+    type: "Competition"
+  },
+  {
+    title: "Cultural Performance",
+    desc: "An evening filled with music, dance, and drama. Experience the vibrant cultural side of the fest through captivating performances.",
+    type: "Cultural"
+  },
+  {
+    title: "Meme Making Competition",
+    desc: "Unleash your humor and creativity by designing memes. A lighthearted competition to spread laughter and fun across the fest.",
+    type: "Competition"
+  },
+  {
+    title: "Bug Bounty Royale",
+    desc: "Test your cybersecurity skills by identifying hidden vulnerabilities. Compete with others to find bugs and claim the ultimate bounty.",
+    type: "Tech"
+  },
+  {
+    title: "UAV Workshop",
+    desc: "Hands-on training in Unmanned Aerial Vehicle (UAV) design and control. Learn drone fundamentals, applications, and flight simulation.",
+    type: "Tech"
+  },
+  {
+    title: "Gen AI App Making Competition",
+    desc: "Build innovative applications powered by Generative AI. Compete to create practical, creative, and impactful solutions using AI models.",
+    type: "Competition"
+  },
+  {
+    title: "Raspberry Pi Workshop",
+    desc: "Learn how to build projects using Raspberry Pi. From IoT to automation, discover endless possibilities with this powerful microcomputer.",
+    type: "Tech"
+  },
+  {
+    title: "VLSI Workshop",
+    desc: "Introduction to Very Large Scale Integration (VLSI) design. Gain practical insights into chip design and semiconductor applications.",
+    type: "Tech"
+  },
+  {
+    title: "Bid to Build",
+    desc: "An exciting event where teams bid for resources and build creative structures. Strategy, collaboration, and innovation decide the winner.",
+    type: "Competition"
+  },
+  {
+    title: "Cultural Performance",
+    desc: "Closing with a spectacular cultural showcase. Music, dance, and theatre to celebrate the diversity and spirit of the fest.",
+    type: "Cultural"
+  }
+];

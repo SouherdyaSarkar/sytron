@@ -108,11 +108,11 @@ export default function Home() {
             )
             : (
               <div className='absolute inset-0 w-full h-full z-20'>
-              <Spline scene="https://prod.spline.design/gUGttESWIfIFfJwp/scene.splinecode"/>
+              <Spline scene="https://prod.spline.design/ZuKhoVZIG4G-lbIq/scene.splinecode"/>
             </div>
             )}
-
-
+              
+              
             <div className='flex flex-col w-[85%] justify-between items-center z-50'> 
 
             <div className='h-[6vh] lg:h-[12vh] w-24 lg:w-44 mb-16 z-60'>
