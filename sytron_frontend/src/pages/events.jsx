@@ -25,7 +25,7 @@ export default function Events() {
         settings: { slidesToShow: 2 },
       },
       {
-        breakpoint: 640,
+        breakpoint: 768,
         settings: { slidesToShow: 1 },
       },
     ],
@@ -61,40 +61,37 @@ export default function Events() {
 
         {/* Event Carousel    */}
         <div className="flex flex-[7] justify-center items-center translate-y-[-4rem] bg-black/50 overflow-hidden w-full px-8">
-            <Slider {...settings} className="w-full h-full">
-                {eventDetails.map((event, i) => (
-                    <div
-                    key={i}
-                    className="flex flex-col items-center justify-center w-full h-[70vh] p-4"
-                    >
-                    {/* Card */}
-                    <div className="w-full h-full flex flex-col rounded-2xl shadow-lg overflow-hidden">
-                        
-                    {/* Image Section */}
-                    <div className="flex bg-gray-400 overflow-hidden flex-[2] w-full">
-                        <img
-                            src={pic1}
-                            alt="Event"
-                            className="w-full h-full object-cover"
-                        />
-                    </div>
+            <Slider {...settings} className="w-full">
+  {eventDetails.map((event, i) => (
+    <div key={i} className="p-4"> {/* padding only, no h-[70vh] */}
+      <div className="bg-white rounded-2xl shadow-lg px-4 overflow-hidden flex flex-col h-full">
+        
+        {/* Image Section */}
+        <div className="w-full h-48 md:h-64 lg:h-72 overflow-hidden">
+          <img 
+            src={pic1} 
+            alt="Event" 
+            className="w-full h-full object-cover"
+          />
+        </div>
 
-                        {/* Text Section */}
-                        <div className="flex-[1] w-full flex flex-col justify-center p-6 bg-gray-50">
-                        <h1 className="text-lg lg:text-2xl font-bold text-purple-700">
-                            {event.title}
-                        </h1>
-                        <p className="text-sm lg:text-base text-gray-700 mt-4 flex-grow">
-                            {event.desc}
-                        </p>
-                        <span className="text-xs lg:text-sm text-purple-500 mt-2">
-                            {event.type}
-                        </span>
-                        </div>
-                    </div>
-                    </div>
-                ))}
-                </Slider>
+        {/* Text Section */}
+        <div className="p-4 flex flex-col flex-grow">
+          <h1 className="text-lg lg:text-2xl font-bold text-purple-700">
+            {event.title}
+          </h1>
+          <p className="text-sm lg:text-base text-gray-700 mt-2 flex-grow">
+            {event.desc}
+          </p>
+          <span className="text-xs lg:text-sm text-purple-500 mt-2">
+            {event.type}
+          </span>
+        </div>
+
+      </div>
+    </div>
+  ))}
+</Slider>
 
             </div>
 
