@@ -18,13 +18,15 @@ import img10 from '../assets/Societies/10.png'
 import img11 from '../assets/Societies/11.png'
 import img12 from '../assets/Societies/12.png'
 import Spline from '@splinetool/react-spline';
-import ImageCarousel from '../components/carousel'
-import Slider from "react-slick";
+import iemLogo from '../assets/Members/iem-logo.png';
+import uemLogo from '../assets/Members/uem-logo.png';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Typewriter from '../components/typewriter'
-import {ArrowRight} from 'lucide-react'
+import {ArrowRight, ArrowRightCircle} from 'lucide-react'
 import { useIsMobile } from '../components/isMobile'
+import { Download } from 'lucide-react'
+
 export default function Home() {
     const [loader,setloader] = useState(true);
     const isMobile = useIsMobile(768);
@@ -62,7 +64,6 @@ export default function Home() {
         img9,
         img10,
         img11,
-        img12,
     ]
 
 
@@ -84,13 +85,43 @@ export default function Home() {
           <Navbar curPage='Home'/>
         </motion.div>
 
-         {isForm && 
-         <div className='absolute flex items-center justify-center bg-black/50 inset-0 h-full w-full'>
-              <div className='w-[20%] h-[30%] bg-white'>
-              
+        {isForm && 
+          <div className="fixed inset-0 flex items-center justify-center bg-black/70 z-50" onClick={()=>setisForm(!isForm)}>
+            <motion.div 
+            initial={{scale:0}}
+            animate={{scale:1}}
+            transition={{
+              duration:0.3,
+              delay:0.1
+            }}
+            className="flex justify-center items-center w-[80%] lg:w-[30%]  bg-white rounded-xl p-8">
+              <div className='grid grid-cols-1 lg:grid-cols-3 gap-6 cursor-pointer'>
+                
+                <div className='flex justify-center items-center 
+                bg-purple-500 p-4 lg:col-span-2 text-white rounded-xl lg:rounded-l-xl'>
+                  Main Registration form
+                  <ArrowRightCircle className='ml-4'/>
+                </div>
+                <div className='flex justify-center items-center bg-white border 
+                border-purple-500 p-4 lg:col-span-1 text-black text-xs rounded-xl lg:rounded-r-xl'>
+                  Main Brochure
+                  <ArrowRightCircle className='ml-2'/>
+                </div>
+
+                <div className='flex justify-center items-center 
+                bg-purple-500 p-4 lg:col-span-2 text-white text-sm rounded-xl lg:rounded-l-xl'>
+                  Games Registration form
+                  <ArrowRightCircle className='ml-4'/>
+                </div>
+                <div className='flex justify-center items-center bg-white border 
+                border-purple-500 p-4 lg:col-span-1 text-black text-xs rounded-xl lg:rounded-r-xl'>
+                  Games Brochure
+                  <ArrowRightCircle className='ml-2'/>
+                </div>
               </div>
-         </div>
-         }   
+            </motion.div>
+          </div>
+        }
 
 
 
@@ -123,28 +154,16 @@ export default function Home() {
             </div>
             )}
               
-              
-            <div className='flex flex-col w-[85%] justify-between items-center z-50'> 
 
-            <div className='h-[6vh] lg:h-[12vh] w-24 lg:w-44 mb-16 z-60'>
-                <Slider 
-              {...settings} 
-              className="h-full w-full [&_.slick-track]:h-full [&_.slick-slide]:h-full [&_.slick-slide>div]:h-full"
-              style={{ width: '100%' }}>
-              {imgPaths.map((path, index) => (
-                <div key={index} className="h-full flex items-center justify-center">
-                  <img
-                    src={path}
-                    alt={`img-${index}`}
-                    className="h-full w-auto object-contain"
-                  />
-                </div>
-              ))}
-            </Slider>
+            <div className='absolute flex justify-between top-0 w-[80%] lg:w-[60%] p-4 h-[12vh] lg:h-[18vh] z-40'>
+              <img className='object-cover h-full aspect-square' src={iemLogo} alt='IEM'/>
+              <img className='object-cover h-full aspect-square' src={img12}/>
+              <img className='object-cover h-full aspect-square' src={uemLogo} alt='UEM'/>
             </div>
-
-            <div className='flex flex-col items-center justify-center mt-8'>
-            <h1 className='text-white text-[3.5rem] lg:text-[7rem] font-bold z-50 mb-4'>
+              
+            <div className='flex flex-col w-[85%] justify-between items-center z-40'> 
+            <div className='flex flex-col items-center justify-center mt-[7.5rem]'>
+            <h1 className='text-white text-[3.5rem] lg:text-[7rem] font-bold z-40 mb-4'>
                 SYTRON
             </h1>
             <motion.div 
@@ -159,7 +178,6 @@ export default function Home() {
             </motion.div>
             </div>
 
-            <a href="https://forms.gle/3b7d8c1Z1d8b7f9A6" target="_blank" rel="noopener noreferrer">
             <motion.div 
             initial={{opacity:0}}
             animate={{opacity:1}}
@@ -180,7 +198,28 @@ export default function Home() {
                 <ArrowRight className='text-white' size={20} />
               </div>
             </motion.div>
-            </a>
+
+
+            <div className='min-h-[10vh] max-w-[90%] lg:h-[5vh] mt-6 z-60'>
+            <div className="grid lg:grid-cols-11 grid-cols-5 gap-4">
+              {imgPaths.map((path, index) => {
+                const isLast = index === imgPaths.length - 1;
+                return (
+                  <div
+                    key={index}
+                    className={`h-full flex items-center justify-center
+                      ${isLast ? isMobile ? "col-start-3" : "" : ''}`}
+                  >
+                    <img
+                      src={path}
+                      alt={`img-${index}`}
+                      className="h-full w-auto object-contain"
+                    />
+                  </div>
+                );
+              })}
+            </div>
+            </div>
 
             </div>
 
