@@ -28,6 +28,7 @@ import { useIsMobile } from '../components/isMobile'
 export default function Home() {
     const [loader,setloader] = useState(true);
     const isMobile = useIsMobile(768);
+    const [isForm,setisForm] = useState(false);
 
     useEffect(()=>{
         const timer = setTimeout(() => {
@@ -82,6 +83,16 @@ export default function Home() {
         >
           <Navbar curPage='Home'/>
         </motion.div>
+
+         {isForm && 
+         <div className='absolute flex items-center justify-center bg-black/50 inset-0 h-full w-full'>
+              <div className='w-[20%] h-[30%] bg-white'>
+              
+              </div>
+         </div>
+         }   
+
+
 
           {/* Content */}
         <motion.div 
@@ -156,7 +167,8 @@ export default function Home() {
                 delay:4.5,
                 duration:1.5}}
             className='flex flex-row border border-white
-            hover:bg-purple-300/50 rounded-3xl items-center justify-between p-2 mt-12 z-50'>
+            hover:bg-purple-300/50 rounded-3xl items-center justify-between p-2 mt-12 z-50'
+            onClick={()=> setisForm(true)}>
                 
                 <h1 className='text-white text-xl font-bold p-4'>Be a part of it!</h1>
                 {/* Light alive */}

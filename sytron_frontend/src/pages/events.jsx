@@ -28,7 +28,7 @@ export default function Events() {
         <div className="flex flex-[7] justify-center items-start 
         bg-black/50 overflow-y-auto w-full px-8">  
 
-        <div className='grid lg:grid-cols-3 grid-cols-1 gap-6'> 
+        <div className='grid lg:grid-cols-3 grid-cols-1 gap-6 w-[90%] lg:w-[70%]'> 
         {eventDetails.map((event, i) => (
 
           <motion.div 
@@ -47,7 +47,7 @@ export default function Events() {
                 <img 
                   src={event.img || ''} 
                   alt="Event" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
 

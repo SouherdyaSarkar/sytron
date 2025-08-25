@@ -1,27 +1,51 @@
 export const events = [
   {
     title: "Ethical Hacking Workshop (ONLINE)",
-    description: "Interactive workshop on ethical hacking concepts and practices.",
-    time: "29th August (Friday) | 8:00 PM – 10:00 PM",
-    type: "Normal"
+    description: "Pre-Requisite Session",
+    time: "28th August (Thursday) | 8:00 PM onwards",
+    type: ""
   },
   {
-    title: "Inauguration Ceremony & Panel Discussion",
-    description: "Opening ceremony followed by an engaging panel discussion.",
-    time: "30th August (Saturday) | 10:00 AM – 12:00 PM",
-    type: "Normal"
+    title: "Ethical Hacking Workshop (ONLINE)",
+    description: "Interactive workshop on ethical hacking concepts and practices.",
+    time: "29th August (Friday) | 8:00 PM onwards",
+    type: ""
+  },
+  {
+    title: "Photography - Pratikriti",
+    description: "Photography competition - flaunt your best clicks",
+    time: "29th August (Friday) 8PM - 31st August(Sunday) 10AM",
+    type: ""
+  },
+  {
+    title: "Reel making competition",
+    description: "Make the best reels and win the prize",
+    time: "29th August (Friday) 8PM - 31st August(Sunday) 10AM",
+    type: ""
+  },
+  {
+    title: "Meme making",
+    description: "Flaunt your humour just the way you are.",
+    time: "29th August (Friday) 8PM - 31st August(Sunday) 10AM",
+    type: ""
   },
   {
     title: "Robotics Prelims",
     description: "ROBOWAR, ROBOSOCCER, and ROBORACE qualifying rounds.",
-    time: "30th August (Saturday) | 10:30 AM ONWARDS",
-    type: "Robotics"
+    time: "30th August (Saturday) | 11:00 AM ONWARDS",
+    type: ""
   },
   {
-    title: "Project & Poster Presentation",
-    description: "Project/Model Making Competition and Poster Presentation.",
+    title: "Project Presentation",
+    description: "Project/Model Presentation.",
     time: "30th August (Saturday) | 12:00 – 1:00 PM",
-    type: "Normal"
+    type: ""
+  },
+  {
+    title: "Poster Presentation",
+    description: "Poster Presentation Session.",
+    time: "30th August (Saturday) | 12:00 – 1:00 PM",
+    type: ""
   },
   {
     title: "Lunch Break",
@@ -30,58 +54,88 @@ export const events = [
     type: "Normal"
   },
   {
-    title: "Workshops: Antenna CST & Generative AI",
-    description: "Hands-on workshop on CST Antenna Design and Gen AI fundamentals.",
+    title: "Workshop: Antenna CST",
+    description: "Hands-on workshop on CST Antenna Design.",
     time: "30th August (Saturday) | 2:00 – 3:00 PM",
-    type: "Normal"
+    type: ""
+  },
+  {
+    title: "Workshop: Generative AI",
+    description: "Hands-on workshop on Gen AI fundamentals.",
+    time: "30th August (Saturday) | 2:00 – 3:00 PM",
+    type: ""
   },
   {
     title: "Quiz (Prelims + Final)",
     description: "A challenging quiz competition for participants.",
-    time: "30th August (Saturday) | 3:00 – 4:30 PM",
-    type: "Gaming"
+    time: "30th August (Saturday) | 3:00 PM Onwards",
+    type: ""
   },
   {
     title: "Online Coding Competition",
     description: "Competitive programming contest conducted online.",
-    time: "30th August (Saturday) | 8:00 PM – 10:30 PM",
-    type: "Gaming"
+    time: "30th August (Saturday) | 8:00 PM – 10:00 PM",
+    type: ""
   },
   {
     title: "Bug Bounty Royale",
-    description: "Security competition focusing on finding vulnerabilities.",
+    description: "Fix erroneous codes with your mental might.",
     time: "31st August (Sunday) | 10:00 AM – 12:00 PM",
     type: "Normal"
   },
   {
-    title: "Robotics Final",
-    description: "Final rounds of ROBOWAR, ROBOSOCCER, and ROBORACE.",
-    time: "31st August (Sunday) | 10:30 AM ONWARDS",
-    type: "Robotics"
+    title: "Robotics Prelims",
+    description: "ROBOWAR, ROBOSOCCER, and ROBORACE qualifying rounds.",
+    time: "31st August (Sunday) | 10:00 AM ONWARDS",
+    type: ""
   },
   {
-    title: "Workshops: UAV, Gen AI App Making, Raspberry Pi",
-    description: "Parallel workshops on UAVs, building apps with Gen AI, and Raspberry Pi projects.",
+    title: "Robotics Final",
+    description: "Final rounds of ROBOWAR, ROBOSOCCER, and ROBORACE.",
+    time: "31st August (Sunday) | 12:30 AM ONWARDS",
+    type: ""
+  },
+  {
+    title: "Workshop: UAV",
+    description: "Workshop on UAV Design.",
     time: "31st August (Sunday) | 12:00 – 1:00 PM",
-    type: "Normal"
+    type: ""
+  },
+  {
+    title: "Gen AI App Making challenge",
+    description: "Create and Present your Gen AI apps",
+    time: "31st August (Sunday) | 12:00 – 1:00 PM",
+    type: ""
+  },
+  {
+    title: "Workshop: Raspberry Pi",
+    description: "Workshop on Raspberry Pi.",
+    time: "31st August (Sunday) | 12:00 – 1:00 PM",
+    type: ""
   },
   {
     title: "Lunch Break",
     description: "Time to relax and have lunch.",
     time: "31st August (Sunday) | 1:00 – 2:00 PM",
-    type: "Normal"
+    type: ""
   },
   {
-    title: "Workshops: VLSI & Bid to Build",
-    description: "Hands-on VLSI workshop and an innovative bidding-based entrepreneurship challenge.",
+    title: "Workshop: VLSI",
+    description: "Hands-on VLSI workshop.",
     time: "31st August (Sunday) | 2:00 – 3:00 PM",
-    type: "Normal"
+    type: ""
   },
   {
-    title: "Quiz Prize Distribution",
-    description: "Winners announced and prizes distributed for the quiz competition.",
+    title: "Bid to Build challenge",
+    description: "Bid for assets and create your own innovative startup.",
+    time: "31st August (Sunday) | 2:00 – 3:00 PM",
+    type: ""
+  },
+  {
+    title: "Prize Distribution",
+    description: "Winners announced and prizes distributed.",
     time: "31st August (Sunday) | 3:00 – 3:30 PM",
-    type: "Gaming"
+    type: ""
   },
   {
     title: "Cultural Performance",

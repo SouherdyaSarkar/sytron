@@ -54,7 +54,8 @@ const Timeline = ({ events }) => {
               {event.description}
             </p>
             <span className="block mt-2 text-xs lg:text-sm text-purple-500">
-              {event.time}
+              {event.time.split('|')[0]}{' '}
+              <strong>{event.time.split('|')[1]}</strong>
             </span>
             <div className="mt-4 w-fit rounded-xl bg-purple-600 p-3 text-white text-xs lg:text-sm">
               {event.type || "Event"}

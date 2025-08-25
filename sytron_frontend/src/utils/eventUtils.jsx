@@ -20,15 +20,54 @@ import yantraVidya from '../assets/Posters/yantra-vidya.jpeg';
 
 export const eventDetails = [
   {
+    title: "Reel Making Competition",
+    desc: "Create short, engaging reels that combine creativity and storytelling. A fun event highlighting digital media skills and originality.",
+    type: "Competition",
+    img : reelMaking
+  },
+  {
+    title: "Photography Contest",
+    desc: "Capture your best shots and showcase your perspective. A competition celebrating creativity, storytelling, and the art of photography.",
+    type: "Competition",
+    img : pratikritiPhotography
+  },
+  {
+    title: "Meme Making Competition",
+    desc: "Unleash your humor and creativity by designing memes. A lighthearted competition to spread laughter and fun across the fest.",
+    type: "Competition",
+    img : ''
+  },
+
+  {
+    title: "Robo-race",
+    desc: "Race with your bots to reach the finish line first.",
+    type: "Robotics",
+    img : roboRace
+  },
+  {
+    title: "Robo-wars",
+    desc: "Immerse in bot fights and let the Strongest win.",
+    type: "Robotics",
+    img : roboWar
+  },
+  {
+    title: "Robo-soccer",
+    desc: "Flavours of soccer with your bots.",
+    type: "Robotics",
+    img : roboSoccer
+  },
+
+  {
     title: "Ethical Hacking Workshop",
     desc: "Hands-on introduction to ethical hacking techniques. Learn how vulnerabilities are discovered and how to secure systems against cyber threats.",
     type: "Tech",
     img : ethicalHacking
   },
+  
   {
-    title: "Panel Discussion",
-    desc: "Engaging session with industry experts and professors. Discuss trends, challenges, and opportunities in technology and innovation.",
-    type: "Talk",
+    title: "Inauguration ceremony",
+    desc: "Start to a great experience.",
+    type: "Event",
     // img : '../assets/posters/ethical-hacking.jpeg'
   },
   {
@@ -55,30 +94,14 @@ export const eventDetails = [
     type: "Tech",
     img : genAIAppMaking
   },
+  
   {
-    title: "Photography Contest",
-    desc: "Capture your best shots and showcase your perspective. A competition celebrating creativity, storytelling, and the art of photography.",
-    type: "Competition",
-    img : pratikritiPhotography
+    title: "Quiz competition",
+    desc: "Let the smartest win the battle of brains.",
+    type: "Educational",
+    img : prashnottaram
   },
-  {
-    title: "Reel Making Competition",
-    desc: "Create short, engaging reels that combine creativity and storytelling. A fun event highlighting digital media skills and originality.",
-    type: "Competition",
-    img : reelMaking
-  },
-  {
-    title: "Cultural Performance",
-    desc: "An evening filled with music, dance, and drama. Experience the vibrant cultural side of the fest through captivating performances.",
-    type: "Cultural",
-    img : ''
-  },
-  {
-    title: "Meme Making Competition",
-    desc: "Unleash your humor and creativity by designing memes. A lighthearted competition to spread laughter and fun across the fest.",
-    type: "Competition",
-    img : ''
-  },
+  
   {
     title: "Bug Bounty Royale",
     desc: "Test your cybersecurity skills by identifying hidden vulnerabilities. Compete with others to find bugs and claim the ultimate bounty.",
@@ -120,11 +143,5 @@ export const eventDetails = [
     desc: "Closing with a spectacular cultural showcase. Music, dance, and theatre to celebrate the diversity and spirit of the fest.",
     type: "Cultural",
     img : ''
-  },
-  {
-    title: "Robo-race",
-    desc: "Closing with a spectacular cultural showcase. Music, dance, and theatre to celebrate the diversity and spirit of the fest.",
-    type: "Cultural",
-    img : roboRace
   },
 ];

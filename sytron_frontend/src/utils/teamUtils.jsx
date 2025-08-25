@@ -15,33 +15,90 @@ import sneha from '../assets/Members/sneha-das.jpg';
 import soham from '../assets/Members/soham-banerjee.webp';
 import souvik from '../assets/Members/souvik-chakrabarty.webp';
 import aishiki from '../assets/Members/aishiki-poddar.jpg'
-
+import bratyabandhu from '../assets/Members/bratyabandhu.jpeg'
+import riddhiman from '../assets/Members/riddhiman.jpeg'
 
 export const members = [
     {
         name : "Rakshit Ahuja",
-        role : "Chairman - MTTS",
+        role : "Chairperson : MTTS-IEM and IEM-SB",
         addRole : "Core Organiser",
         img : rakshit
     },
     {
         name : "Samya Dutta",
-        role : "Chairman - CS",
+        role : "Chairperson : CS-IEM",
         addRole : "Core Organiser",
         img: samya
     },
     {
         name : "Patatri Acharya",
-        role : "Chairwoman - WIE",
+        role : "Chairperson : WIE-IEM",
         addRole : "Core Organiser",
         img: patatri
+    },
+    {
+        name : "Shatavisha Dasgupta",
+        role : "Chairperson : CAS-IEM",
+        addRole : "Core Organiser",
+        img: satavisha
+    },
+    {
+        name : "Arunima Samanta",
+        role : "Chairperson : APS-IEM",
+        addRole : "Core Organiser",
+        img: arunima
     },
     
     {
         name : "Pritam Aich",
-        role : "Webmaster - MTTS",
+        role : "Vice Chairperson : CASS-IEM",
         addRole : "Core Organiser",
         img: pritam
+    },
+
+    {
+        name : "Soham Banerjee",
+        role : "Vice Chairperson : MTTS-IEM",
+        addRole : "Core Organiser",
+        img: soham
+    },
+
+    {
+        name : "Sneha Das",
+        role : "Chairperson : IAS-IEM",
+        addRole : "Core Organiser",
+        img: sneha
+    },
+    {
+        name : "Puspargha Roy",
+        role : "Secretary : IAS-IEM",
+        addRole : "Core Organiser",
+        img: ''
+    },
+    {
+        name : "Bratyabandhu Bhattacharya",
+        role : "Secretary : APS-IEM",
+        addRole : "Core Organiser",
+        img: bratyabandhu
+    },
+    {
+        name : "Riddhiman Dey Sarkar",
+        role : "Core member : CS-IEM",
+        addRole : "Core Organiser",
+        img: riddhiman
+    },
+    {
+        name : "Sanchari Mukherjee",
+        role : "Core member : CS-IEM",
+        addRole : "Core Organiser",
+        img: ''
+    },
+    {
+        name : "Tuhin Karmakar",
+        role : "Chairperson : IAS-IEM",
+        addRole : "Core Organiser",
+        img: ''
     },
     {
         name : "Paridhi Khandelwal",
