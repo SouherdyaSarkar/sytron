@@ -5,6 +5,7 @@ import Loader from './components/loader'
 import Timeline from './components/Schedule'
 import { events } from './utils/utils'
 import Events from './pages/events'
+import Team from './pages/team'
 function App() {
 
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/loader" element={<Loader />} />
         <Route path="/schedule" element={<Timeline events={events} />} />
         <Route path="/events" element={<Events/>} />
+        <Route path="/team" element={<Team/>} />
       </Routes>
     </Router>  
   )

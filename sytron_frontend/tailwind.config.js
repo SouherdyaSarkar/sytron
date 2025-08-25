@@ -1,8 +1,7 @@
-/** @type {import('tailwindcss').Config} */
 export default {
-    content: [
+  content: [
     "./index.html",
-    "./src/**/*.{js,jsx}", // make sure JSX files are included
+    "./src/**/*.{js,jsx}", // include JSX files
   ],
   theme: {
     extend: {
@@ -14,8 +13,16 @@ export default {
         inter: ['Inter', 'sans-serif'],
         zenDots: ['"Zen Dots"', 'cursive'],
       },
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' }, // small lift
+        },
+      },
+      animation: {
+        float: 'float 4s ease-in-out infinite', // very slow + looping
+      },
     },
   },
   plugins: [],
 }
-
