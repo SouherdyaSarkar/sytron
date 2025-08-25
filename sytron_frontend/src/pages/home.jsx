@@ -60,8 +60,8 @@ export default function Home() {
         img5,
         img6,
         img7,
-        img8,
         img9,
+        img8,
         img10,
         img11,
     ]
@@ -95,29 +95,49 @@ export default function Home() {
               delay:0.1
             }}
             className="flex justify-center items-center w-[80%] lg:w-[30%]  bg-white rounded-xl p-8">
-              <div className='grid grid-cols-1 lg:grid-cols-3 gap-6 cursor-pointer'>
-                
-                <div className='flex justify-center items-center 
-                bg-purple-500 p-4 lg:col-span-2 text-white rounded-xl lg:rounded-l-xl'>
-                  Main Registration form
-                  <ArrowRightCircle className='ml-4'/>
-                </div>
-                <div className='flex justify-center items-center bg-white border 
-                border-purple-500 p-4 lg:col-span-1 text-black text-xs rounded-xl lg:rounded-r-xl'>
-                  Main Brochure
-                  <ArrowRightCircle className='ml-2'/>
-                </div>
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 cursor-pointer">
 
-                <div className='flex justify-center items-center 
-                bg-purple-500 p-4 lg:col-span-2 text-white text-sm rounded-xl lg:rounded-l-xl'>
-                  Games Registration form
-                  <ArrowRightCircle className='ml-4'/>
-                </div>
-                <div className='flex justify-center items-center bg-white border 
-                border-purple-500 p-4 lg:col-span-1 text-black text-xs rounded-xl lg:rounded-r-xl'>
-                  Games Brochure
-                  <ArrowRightCircle className='ml-2'/>
-                </div>
+                
+                  <div className="flex justify-center items-center 
+                    bg-purple-500 p-4 lg:col-span-2 text-white rounded-xl lg:rounded-l-xl"
+                    onClick={() => window.location.href = "https://forms.gle/gQvvjDUx243uePNh8"}>
+                    Main Registration form
+                    <ArrowRightCircle className="ml-4"/>
+                  </div>
+                
+
+                <a 
+                  href="https://drive.google.com/file/d/1M-FBQS8HOCPfUN30QWDE0rTEUjPp2L40/view?usp=sharing" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <div className="flex justify-center items-center bg-white border 
+                    border-purple-500 p-4 lg:col-span-1 text-black text-xs rounded-xl lg:rounded-r-xl">
+                    Main Brochure
+                    <ArrowRightCircle className="ml-2"/>
+                  </div>
+                </a>
+
+                
+                  <div className="flex justify-center items-center 
+                    bg-purple-500 p-4 lg:col-span-2 text-white text-sm rounded-xl lg:rounded-l-xl"
+                    onClick={() => window.location.href = "https://forms.gle/avcicVw9eyC6sKMNA"}>
+                    Robotics Registration form
+                    <ArrowRightCircle className="ml-4"/>
+                  </div>
+              
+
+                <a 
+                  href="https://drive.google.com/file/d/1p5ukejacD1MJmTW5aG2h-vmVExgcjFq3/view?usp=sharing" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <div className="flex justify-center items-center bg-white border 
+                    border-purple-500 p-4 lg:col-span-1 text-black text-xs rounded-xl lg:rounded-r-xl">
+                    Robotics Brochure
+                    <ArrowRightCircle className="ml-2"/>
+                  </div>
+                </a>
               </div>
             </motion.div>
           </div>

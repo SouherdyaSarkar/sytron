@@ -17,6 +17,7 @@ import souvik from '../assets/Members/souvik-chakrabarty.webp';
 import aishiki from '../assets/Members/aishiki-poddar.jpg'
 import bratyabandhu from '../assets/Members/bratyabandhu.jpeg'
 import riddhiman from '../assets/Members/riddhiman.jpeg'
+import sanchari from '../assets/Members/sanchari.jpeg'
 
 export const members = [
     {
@@ -92,7 +93,7 @@ export const members = [
         name : "Sanchari Mukherjee",
         role : "Core member : CS-IEM",
         addRole : "Core Organiser",
-        img: ''
+        img: sanchari
     },
     {
         name : "Tuhin Karmakar",
