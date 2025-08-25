@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import comingSoon from '../assets/Members/coming-soon.png'
 import {eventDetails} from '../utils/eventUtils'
 export default function Events() {
 
@@ -45,7 +46,7 @@ export default function Events() {
               {/* Image Section */}
               <div className="w-full h-48 md:h-64 lg:h-72">
                 <img 
-                  src={event.img || ''} 
+                  src={event.img || comingSoon} 
                   alt="Event" 
                   className="w-full h-full object-contain"
                 />
