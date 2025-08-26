@@ -26,6 +26,7 @@ import Typewriter from '../components/typewriter'
 import {ArrowRight, ArrowRightCircle} from 'lucide-react'
 import { useIsMobile } from '../components/isMobile'
 import { Download } from 'lucide-react'
+import fontLogo from '../assets/font-logo.png'
 
 export default function Home() {
     const [loader,setloader] = useState(true);
@@ -182,10 +183,15 @@ export default function Home() {
             </div>
               
             <div className='flex flex-col w-[85%] justify-between items-center z-40'> 
-            <div className='flex flex-col items-center justify-center mt-[7.5rem]'>
-            <h1 className='text-white text-[3.5rem] lg:text-[7rem] font-bold z-40 mb-4'>
+            <div className='flex flex-col gap-4 items-center justify-center mt-[8rem] lg:mt-[5rem]'>
+            {/* <h1 className='text-white text-[3.5rem] lg:text-[7rem] font-bold z-40 mb-4'>
                 SYTRON
-            </h1>
+            </h1> */}
+
+            <div className='h-[40%] max-w-[80%]'>
+                <img src={fontLogo} className='object-cover h-full w-full'/>
+            </div>
+
             <motion.div 
               initial={{opacity:0}}
               animate={{opacity:1}}
@@ -205,7 +211,7 @@ export default function Home() {
                 delay:4.5,
                 duration:1.5}}
             className='flex flex-row border border-white
-            hover:bg-purple-300/50 rounded-3xl items-center justify-between p-2 mt-12 z-50'
+            hover:bg-purple-300/50 rounded-3xl items-center justify-between p-2 mt-[2rem] lg:mt-0 z-50'
             onClick={()=> setisForm(true)}>
                 
                 <h1 className='text-white text-xl font-bold p-4'>Be a part of it!</h1>

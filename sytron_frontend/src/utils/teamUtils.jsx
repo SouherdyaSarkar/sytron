@@ -9,7 +9,7 @@ import priyanjita from '../assets/Members/priyanjita-kar.jpg';
 import rakshit from '../assets/Members/rakshit-ahuja.jpeg';
 import samya from '../assets/Members/samya-dutta.webp';
 import sarvani from '../assets/Members/sarvani-saha.JPG';
-import satavisha from '../assets/Members/satavisha-dasgupta.jpg';
+import satavisha from '../assets/Members/shatavisha-2.jpeg';
 import sattwik from '../assets/Members/sattwik-roy.jpg';
 import sneha from '../assets/Members/sneha-das.jpg';
 import soham from '../assets/Members/soham-banerjee.webp';
@@ -18,6 +18,9 @@ import aishiki from '../assets/Members/aishiki-poddar.jpg'
 import bratyabandhu from '../assets/Members/bratyabandhu.jpeg'
 import riddhiman from '../assets/Members/riddhiman.jpeg'
 import sanchari from '../assets/Members/sanchari.jpeg'
+import srijit from '../assets/Members/srijit.jpeg'
+import tuhin from '../assets/Members/tuhin.jpg'
+import puspargha from '../assets/Members/puspargha.jpg'
 
 export const members = [
     {
@@ -75,13 +78,19 @@ export const members = [
         name : "Puspargha Roy",
         role : "Secretary : IAS-IEM",
         addRole : "Core Organiser",
-        img: ''
+        img: puspargha
     },
     {
         name : "Bratyabandhu Bhattacharya",
         role : "Secretary : APS-IEM",
         addRole : "Core Organiser",
         img: bratyabandhu
+    },
+    {
+        name: "Srijit Chakrabarty",
+        role : "Treasurer : CS-IEM",
+        addRole : "Core Organiser",
+        img : srijit
     },
     {
         name : "Riddhiman Dey Sarkar",
@@ -99,60 +108,6 @@ export const members = [
         name : "Tuhin Karmakar",
         role : "Chairperson : IAS-IEM",
         addRole : "Core Organiser",
-        img: ''
+        img: tuhin
     },
-    {
-        name : "Paridhi Khandelwal",
-        role : "Sponsorship Representative",
-        addRole : "Member",
-        img : paridhi
-    },
-    {
-        name : "Aishiki Podder",
-        role : "Reels Representative",
-        addRole : "Member",
-        img : aishiki
-    },
-    {
-        name : "Souvik Chakraborty",
-        role : "Logistics Representative",
-        addRole : "Member",
-        img : souvik
-    },
-    {
-        name : "Ayan Chatterjee",
-        role : "Logistics Representative",
-        addRole : "Member",
-        img : ayan
-    },
-    {
-        name : "Anusmriti Saha",
-        role : "Graphics Representative",
-        addRole : "Member",
-        img : anusmriti
-    },
-    {
-        name : "Sarvani Saha",
-        role : "Graphics Representative",
-        addRole : "Member",
-        img : sarvani
-    },
-    {
-        name : "Priyanjita Kar",
-        role : "UEM Representative",
-        addRole : "Member",
-        img : priyanjita
-    },
-    {
-        name : "Sattwik Singha Roy",
-        role : "UEM Representative",
-        addRole : "Member",
-        img : sattwik
-    },
-    {
-        name : "Krish Mishra",
-        role : "UEM Representative",
-        addRole : "Member",
-        img : krish
-    }
 ]
