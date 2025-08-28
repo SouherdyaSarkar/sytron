@@ -31,19 +31,40 @@
   <meta property="og:url" content="https://www.sytron.co.in/">
 
   <!-- Structured Data (JSON-LD for SEO) -->
-  <script type="application/ld+json">
+    <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
+      "@type": "Event",
+      "name": "SYTRON 2025",
+      "description": "SYTRON is a premier tech event featuring workshops, panel discussions, coding challenges, gaming tournaments, and interactive sessions, designed to inspire learners, developers, and tech enthusiasts alike.",
+      "startDate": "2025-08-29T09:00",
+      "endDate": "2025-08-31T18:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
       "url": "https://www.sytron.co.in/",
-      "name": "SYTRON",
-      "description": "SYTRON is a premier tech event bringing together innovation, 
-    creativity, and collaboration. The event features a diverse lineup of workshops, 
-    panel discussions, coding challenges, gaming tournaments, and interactive sessions, 
-    designed to inspire learners, developers, and tech enthusiasts alike.",
-      "sameAs": [
-        "https://www.instagram.com/sytron_iem/"
-      ]
+      "image": [
+        "https://www.sytron.co.in/event-banner.jpg"
+      ],
+      "location": {
+        "@type": "Place",
+        "name": "Institute of Engineering & Management",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Salt Lake, Sector V",
+          "addressLocality": "Kolkata",
+          "addressRegion": "West Bengal",
+          "postalCode": "700091",
+          "addressCountry": "IN"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "SYTRON",
+        "url": "https://www.sytron.co.in/",
+        "sameAs": [
+          "https://www.instagram.com/sytron_iem/"
+        ]
+      }
     }
     </script>
 </head>
