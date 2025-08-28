@@ -106,7 +106,7 @@ export const members = [
     },
     {
         name : "Tuhin Karmakar",
-        role : "Chairperson : IAS-IEM",
+        role : "Core member",
         addRole : "Core Organiser",
         img: tuhin
     },
